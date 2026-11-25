@@ -66,7 +66,7 @@ h1 span {
   margin-top: .2rem;
   border: 1px solid #e0e4e9;
 }
-nav, .related-links {
+nav {
   display: flex;
   flex-wrap: wrap;
   gap: .35rem 1rem;
@@ -107,7 +107,6 @@ h3 { font-size: 1.03rem; }
 .publication-details span { margin-inline: .18rem; }
 .project-list li + li { margin-top: 1rem; }
 .project-list h3 + p { margin-top: .26rem; }
-.related-links { margin-top: .14rem; font-size: .92rem; }
 footer { color: var(--secondary); font-size: .9rem; }
 
 @media (max-width: 37rem) {
