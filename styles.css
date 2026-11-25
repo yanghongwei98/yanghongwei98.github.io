@@ -106,18 +106,7 @@ h3 { font-size: 1.03rem; }
 .publication-details { color: var(--secondary); font-size: .875rem; }
 .publication-details span { margin-inline: .18rem; }
 .project-list li + li { margin-top: 1rem; }
-.project-list h3 {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: .18rem .65rem;
-}
 .project-list h3 + p { margin-top: .26rem; }
-.project-status {
-  color: var(--secondary);
-  font-size: .875rem;
-  font-weight: 400;
-}
 .related-links { margin-top: .14rem; font-size: .92rem; }
 footer { color: var(--secondary); font-size: .9rem; }
 

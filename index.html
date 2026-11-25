@@ -68,14 +68,14 @@
       <h2 id="projects-title">项目学习经历</h2>
       <ul class="project-list">
         <li>
-          <h3>中文医疗问答 LoRA SFT <span class="project-status">学习计划</span></h3>
-          <p>拟用公开中文医疗问答数据对 Qwen3-1.7B 做 LoRA 监督微调，在去重后的留出集上对比微调前后的事实错误。</p>
-          <p class="related-links"><a href="https://github.com/hiyouga/LlamaFactory">LlamaFactory</a><a href="https://github.com/FreedomIntelligence/HuatuoGPT-o1">HuatuoGPT-o1</a></p>
+          <h3>HuatuoGPT-o1 医学推理（SFT + RL）</h3>
+          <p>学习 HuatuoGPT-o1 的两阶段训练流程，先用经验证的医学推理过程做监督微调，再以医学答案验证器提供的奖励进行 PPO 强化学习。关注两个训练阶段对答题正确率和推理错误的影响。</p>
+          <p class="related-links"><a href="https://github.com/FreedomIntelligence/HuatuoGPT-o1">开源代码</a><a href="https://aclanthology.org/2025.findings-acl.751/">Findings of ACL 2025 论文</a></p>
         </li>
         <li>
-          <h3>HealthBench 医疗对话评测 <span class="project-status">学习计划</span></h3>
-          <p>拟用医生编写的评分细则，对比两套提示词在急症转诊和不确定性应对样本上的表现，人工复核漏转诊和回答过度确定的案例。</p>
-          <p class="related-links"><a href="https://github.com/openai/simple-evals">HealthBench 评测代码</a></p>
+          <h3>保健咨询 AI 的医学评测</h3>
+          <p>面向保健咨询 AI 设计医学评测，重点考察回答的医学准确性、建议是否适用，以及是否提示必要风险。通过文献调研比较 HealthBench 和 MedBench，选取更贴近中文健康咨询场景的 MedHC 子集作为评测基准。</p>
+          <p class="related-links"><a href="https://medbench.opencompass.org.cn/home">MedBench（MedHC）</a><a href="https://ieeexplore.ieee.org/document/10778138">基准论文</a></p>
         </li>
       </ul>
     </section>
