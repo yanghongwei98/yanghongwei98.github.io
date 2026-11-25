@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="杨宏伟的个人主页。临床医学博士，北京大学电子信息硕士在读。关注医疗大模型的监督微调、医疗对话评测和生物医学数据分析。">
+  <meta name="theme-color" content="#103534">
+  <title>杨宏伟｜临床医学与医疗 AI</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="container header-layout">
+      <a class="brand" href="#top" aria-label="杨宏伟主页">
+        <span class="monogram" aria-hidden="true">YH</span>
+        <span lang="en">Hongwei Yang</span>
+      </a>
+      <nav aria-label="主导航">
+        <a href="#projects">项目</a>
+        <a href="#publications">论文</a>
+        <a href="#background">经历</a>
+      </nav>
+      <a class="header-github" href="https://github.com/yanghongwei98">GitHub</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="hero-field">临床医学 <span aria-hidden="true">/</span> 医疗 AI</p>
+          <h1 id="hero-title">杨宏伟</h1>
+          <p class="hero-name" lang="en">Hongwei Yang, MD</p>
+          <p class="hero-intro">临床医学博士，北京大学电子信息硕士在读。曾任心内科住院医师，现关注医疗问答的监督微调和模型评测。</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="#projects">查看项目</a>
+            <a class="button button-outline" href="#publications">代表论文</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <img src="assets/ecg-editorial.webp" width="1260" height="840" alt="青绿色心电图纸的概念插图" fetchpriority="high">
+          <figcaption>心电图主题插图</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="projects" class="section project-section" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="projects-title">开源与学习项目</h2>
+          <a class="text-link" href="https://github.com/yanghongwei98?tab=repositories">查看 GitHub 仓库</a>
+        </div>
+        <div class="project-grid">
+          <article class="project">
+            <p class="status">学习计划</p>
+            <h3>医疗对话评测</h3>
+            <p>用 HealthBench 的急症转诊与不确定性应对样本，对比提示词对模型回答的影响，人工复核漏转诊和过度确定的案例。</p>
+            <div class="project-links">
+              <a href="https://github.com/openai/simple-evals">HealthBench 评测代码</a>
+            </div>
+          </article>
+          <article class="project">
+            <p class="status">学习计划</p>
+            <h3>中文医疗问答微调</h3>
+            <p>基于公开中文医疗问答数据，对 Qwen3-1.7B 进行 LoRA 监督微调，并在留出集上对比微调前后的事实错误。</p>
+            <div class="project-links">
+              <a href="https://github.com/hiyouga/LlamaFactory">LlamaFactory</a>
+              <span aria-hidden="true">·</span>
+              <a href="https://github.com/FreedomIntelligence/HuatuoGPT-o1">HuatuoGPT-o1</a>
+            </div>
+          </article>
+          <article class="project">
+            <p class="status status-public">开源仓库</p>
+            <h3>Codex 用量看板</h3>
+            <p>在开源用量工具的基础上，加入按模型和时段估算 Codex 额度的模块，用量日志留在本机。</p>
+            <div class="project-links">
+              <a href="https://github.com/yanghongwei98/codex-quota-dashboard">查看项目仓库</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section publication-section" aria-labelledby="publications-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="publications-title">代表论文</h2>
+        </div>
+        <ol class="publication-list">
+          <li class="publication">
+            <time datetime="2026">2026</time>
+            <div>
+              <h3>熊果酸对血管钙化的作用机制</h3>
+              <p lang="en">DECR1 degradation by ursolic acid alleviates vascular calcification through inhibition of NF-κB/NLRP3 signaling pathway</p>
+              <p class="publication-credit"><cite lang="en">Free Radical Biology and Medicine</cite><span aria-hidden="true">·</span>共同第一作者（署名第一）</p>
+            </div>
+            <a class="text-link" href="https://pubmed.ncbi.nlm.nih.gov/42034130/" aria-label="在 PubMed 查看熊果酸对血管钙化的研究">PubMed</a>
+          </li>
+          <li class="publication">
+            <time datetime="2024">2024</time>
+            <div>
+              <h3>血液代谢物与腹主动脉钙化的因果关联</h3>
+              <p lang="en">Causal association between blood metabolites and abdominal aortic calcification: A bidirectional Mendelian randomization study</p>
+              <p class="publication-credit"><cite lang="en">Medicine</cite><span aria-hidden="true">·</span>第一作者</p>
+            </div>
+            <a class="text-link" href="https://pubmed.ncbi.nlm.nih.gov/39252291/" aria-label="在 PubMed 查看血液代谢物与腹主动脉钙化的研究">PubMed</a>
+          </li>
+          <li class="publication">
+            <time datetime="2022">2022</time>
+            <div>
+              <h3>Gui Shao Tea 提取物对胃癌生长的影响</h3>
+              <p lang="en">Gui Shao Tea Extracts Inhibit Gastric Cancer Growth in Vitro and in Vivo and Prolong Survival in Nude Mice</p>
+              <p class="publication-credit"><cite lang="en">Frontiers in Bioscience (Landmark Edition)</cite><span aria-hidden="true">·</span>共同第一作者</p>
+            </div>
+            <a class="text-link" href="https://pubmed.ncbi.nlm.nih.gov/36042181/" aria-label="在 PubMed 查看 Gui Shao Tea 提取物的研究">PubMed</a>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="background" class="section background-section" aria-labelledby="background-title">
+      <div class="container background-layout">
+        <h2 id="background-title">教育与临床经历</h2>
+        <ol class="background-list">
+          <li>
+            <div>
+              <h3>北京大学</h3>
+              <p>电子信息硕士在读</p>
+            </div>
+            <p class="dates">2026.09 至今</p>
+          </li>
+          <li>
+            <div>
+              <h3>温州医科大学附属第一医院</h3>
+              <p>医师、助理研究员</p>
+            </div>
+            <p class="dates">2024.09 – 2025.09</p>
+          </li>
+          <li>
+            <div>
+              <h3>南方医科大学</h3>
+              <p>临床医学博士，本博连读</p>
+            </div>
+            <p class="dates">2018.09 – 2024.06</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-layout">
+      <span>杨宏伟 <span class="footer-divider" aria-hidden="true">/</span> <span lang="en">Hongwei Yang</span></span>
+      <a href="https://github.com/yanghongwei98" aria-label="杨宏伟的 GitHub 账号">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
